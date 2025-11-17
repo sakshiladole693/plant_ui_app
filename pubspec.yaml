@@ -1,0 +1,38 @@
+name: plant_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.2.0
+  google_fonts: ^6.3.0
+  carousel_slider: ^5.1.1
+  dots_indicator: ^4.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/p1.png
+    - assets/images/p2.png
+    - assets/images/p3.png
+    - assets/images/p4.png
+    - assets/svg/r1.svg
+    - assets/svg/r2.svg
+    - assets/svg/r3.svg
+    - assets/svg/pot.svg
+    - assets/svg/₹350.svg
+    - assets/svg/line.svg
+    - assets/svg/call.svg
+    - assets/svg/height.svg
+    - assets/svg/thermometer.svg
+    - assets/svg/shopping_cart.svg
